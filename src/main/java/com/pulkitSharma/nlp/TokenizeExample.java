@@ -1,4 +1,4 @@
-package com.dineshkrish.nlp;
+package com.pulkitSharma.nlp;
 
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
@@ -12,7 +12,7 @@ public class TokenizeExample {
 
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String text = "Hey! This is Dinesh Krishnan";
+        String text = "Hey! This is Pulkit Sharma.";
 
         CoreDocument coreDocument = new CoreDocument(text);
 
