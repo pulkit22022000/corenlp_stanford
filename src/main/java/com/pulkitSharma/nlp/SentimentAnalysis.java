@@ -1,4 +1,4 @@
-package com.dineshkrish.nlp;
+package com.pulkitSharma.nlp;
 
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreSentence;
@@ -12,7 +12,7 @@ public class SentimentAnalysis {
 
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String text = "Hello this is John. I really don`t like this place.";
+        String text = "Hello this is John. I really like this place.";
 
         CoreDocument coreDocument = new CoreDocument(text);
 
