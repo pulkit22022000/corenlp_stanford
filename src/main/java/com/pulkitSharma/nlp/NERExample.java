@@ -1,4 +1,4 @@
-package com.dineshkrish.nlp;
+package com.pulkitSharma.nlp;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -14,7 +14,7 @@ public class NERExample {
 
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String text = "Hey! My name is Dinesh Krishnan and I have friend his name is Robert." +
+        String text = "Hey! My name is Pulkit Sharma and I have friend his name is Robert." +
                 " We both are living in Berlin";
 
         CoreDocument coreDocument = new CoreDocument(text);
