@@ -1,4 +1,4 @@
-package com.dineshkrish.nlp;
+package com.pulkitSharma.nlp;
 
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreSentence;
@@ -12,7 +12,7 @@ public class SentenceRecognizer {
 
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String text = "Hey! I am Dinesh Krishnan. I am Software Developer and Consultant.";
+        String text = "Hey! I am Pulkit Sharma. I am a student.";
 
         CoreDocument coreDocument = new CoreDocument(text);
 
