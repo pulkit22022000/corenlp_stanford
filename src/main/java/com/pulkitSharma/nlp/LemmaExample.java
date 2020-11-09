@@ -1,4 +1,4 @@
-package com.dineshkrish.nlp;
+package com.pulkitSharma.nlp;
 
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
