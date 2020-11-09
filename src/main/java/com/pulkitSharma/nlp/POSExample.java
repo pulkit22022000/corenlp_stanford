@@ -1,4 +1,4 @@
-package com.dineshkrish.nlp;
+package com.pulkitSharma.nlp;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -13,7 +13,7 @@ public class POSExample {
 
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String text = "Hey! I am Dinesh Krishnan.";
+        String text = "Hey! I am Pulkit Sharma.";
 
         CoreDocument coreDocument = new CoreDocument(text);
 
